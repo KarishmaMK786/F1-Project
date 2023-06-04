@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <link rel="icon" href="./images/icon.png">
+    <title>Education</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <!-- *********** header ************-->
+    
+    <header>
+       <div class="container-fluid" id="navbar">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo.svg" alt="accio-logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#instructor">Instructors</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        
+       </div>
+
+    </header>
+
+    <!-- *********** main ***********-->
+
+
+    <main>
+
+         <!-- @@@@@@@@@@@@@ carousel @@@@@@@@@@@@@@-->
+        <section id="carousel" id="home" >
+            <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./images/images-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5> It’s a Practical and Functional Trade</h5>
+                      <p>The need for web developers is rapidly increasing in today’s digital age. This is because websites have become crucial to a company’s online presence, and custom software and applications are required to meet their specific business needs.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="./images/image-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Organizational Skills</h5>
+                      <p>Coding is an intricate and multifaceted activity that involves much more than simply writing lines of code. It entails paying careful attention to detail, having a solid sense of organization, and juggling multiple tasks while keeping track of everything you’re working on. </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/image-7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Creative Problem Solving</h5>
+                      <p>Coding is more than just writing lines of code to solve a problem. It is a creative process that requires resourcefulness and out-of-the-box thinking. There are many ways to approach a programming problem; some solutions may be more effective than others.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </section>
+
+         <!-- @@@@@@@@@@@@@  custom flex section @@@@@@@@@@@@@@-->
+         <section id="instructor" class="container">
+            <h1 class="instructor-heading">Instructors</h1>
+            <div class="instructor">
+                <div class="instructor-1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div>
+                        <img src="./images/instructor-01.png" alt="instructor-1">
+                    </div>
+                    <div>
+                        <h3>
+                            Mohit Singhal
+                        </h3>
+                        <p>
+                            An IIT Indore graduate, has mentored thousands of students on various Data Structures and Algorithm (DSA) topics, with a specific focus on Spring boot and Capstone projects.
+                        </p>
+                    </div>
+                </div>
+                <div class="instructor-2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div>
+                        <img src="./images/instructor-3.png" alt="instructor-2" >
+                    </div>
+                    <div>
+                        <h3>
+                            Bhavya
+                        </h3>
+                        <p>
+                            An expert in introducing students to Coding. He's working full time with us at AccioJob to improve our curriculum and has worked as a Full Stack Software Engineer at Schlumberger.
+                        </p>
+                    </div>
+                </div>
+                <div class="instructor-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div>
+                        <img src="./images/instructor-2.png" alt="instructor-3">
+                    </div>
+                    <div>
+                        <h3>
+                            Naresh Kumar
+                        </h3>
+                        <p>
+                            An Upcoming Software Engineer at Google, has been mentoring students on advanced Data Structures and Algorithms (DSA) topics such as Heaps, Backtracking and Dynamic Programming.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+         </section>
+
+         <!-- @@@@@@@@@@@@@   grid section @@@@@@@@@@@@@@-->
+         <section id="photo-gallery" class="container" >
+            <div id="item-1">
+                <img src="./images/g-4.jpg" alt="gallery-1">
+            </div>
+            <div id="item-2">
+                <img src="./images/g-3.jpg" alt="gallery-2">
+            </div>
+            <div id="item-3">
+                <img src="./images/g-6.jpg" alt="gallery-3">
+            </div>
+            
+            <div id="item-4">
+                <img src="./images/g-5.jpg" alt="gallery-4">
+            </div>
+            <div id="item-5">
+                <img src="./images/g-7.jpg" alt="gallery-5">
+            </div>
+            <div id="item-6">
+                <img src="./images/g-8.jpg" alt="gallery-6">
+            </div>
+            <div id="item-7">
+                <img src="./images/g-9.jpg" alt="gallery-7">
+            </div>
+            <div id="item-8">
+                <img src="./images/g-10.jpg" alt="gallery-8">
+            </div>
+            <div id="item-9">
+                <img src="./images/g-1.jpg" alt="gallery-9">
+            </div>
+        
+         </section>
+
+           <!-- @@@@@@@@@@@@@   card section @@@@@@@@@@@@@@-->
+           <section class="container" id="reviews"> 
+               <div class="reviews-heading"> <h1 >Reviews</h1></div>
+               <div class="reviews-content">
+                <div class="card" style="width: 18rem;" data-aos="flip-left"  data-aos-easing="ease-out-cubic"  data-aos-duration="2000">
+                    <img src="./images/student-1.png" class="card-img-top" alt="student-1">
+                    <div class="card-body">
+                      <h5 class="card-title">Prashant Singh</h5>
+                      <p class="card-text">During 2020 I was only able to get interviews for positions that offered like 10k-20k per month salary. </p>
+                      <a href="#" class="btn btn-primary">View me</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;" data-aos="flip-left"  data-aos-easing="ease-out-cubic"  data-aos-duration="2000">
+                    <img src="./images/student-2.png" class="card-img-top" alt="student-2">
+                    <div class="card-body">
+                      <h5 class="card-title">Utsavi Patil</h5>
+                      <p class="card-text">I am thrilled to announce that I have joined Lowe's India as Associate Software Engineer.Thank you </p>
+                      <a href="#" class="btn btn-primary">View me</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;" data-aos="flip-left"  data-aos-easing="ease-out-cubic"  data-aos-duration="2000">
+                    <img src="./images/student-3.png" class="card-img-top" alt="student-3">
+                    <div class="card-body">
+                      <h5 class="card-title">Samarth Gaur</h5>
+                      <p class="card-text">I cleared Amazon within 2.5 months of studying at AccioJob.Thank you AccioJob for your support</p>
+                      <a href="#" class="btn btn-primary">View me</a>
+                    </div>
+                  </div>
+    
+               </div>
+            
+           </section>
+
+    </main>
+
+
+    <!--  ************ footer *********** -->
+    <footer  class="container" >
+            <div class="footer-1" >
+                <div  >
+                    <h5>EDUCATION</h5>
+                    <ul>
+                        <li><a href="https://acciojob.com/job-guarantee.html" target="_blank">Beginner Course</a></li>
+                        <li><a href="https://acciojob.com/pay-after-placement.html" target="_blank">Intermediate Course</a></li>
+                        <li><a href="https://acciojob.com/data-analytics.html" target="_blank">Data Analytics Course</a></li>
+                        <li><a href="https://acciojob.com/scholarship-test.html" target="_blank">Scholarship Test</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>COMPANY</h5>
+                    <ul>
+                        <li><a href="https://acciojob.com/job-guarantee.html" target="_blank">Blog</a></li>
+                        <li><a href="https://acciojob.com/pay-after-placement.html" target="_blank">Careers</a></li>
+                        <li><a href="https://acciojob.com/data-analytics.html" target="_blank">Terms and Conditions</a></li>
+                        <li><a href="https://acciojob.com/scholarship-test.html" target="_blank">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div >
+                    <h5>CONATCT US</h5>
+                    <div><i class="bi bi-envelope"></i>contactus@acciojob.com</div>
+                    <div><i class="bi bi-telephone"></i>+91 8905497230</div>
+                    <div><i class="bi bi-geo-alt"></i>4th floor,sector 44 Gurugram, Haryana</div>
+                </div>
+            </div>
+            <div  class="footer-2">
+                <div>© Copyright 2022, All Rights Reserved</div>
+                <div><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button></div>
+            </div>
+      
+
+    </footer>
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>

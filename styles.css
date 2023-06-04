@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar {
+    position: fixed;
+    z-index: 1000;
+    --bs-gutter-x: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.nav-link {
+    color: #2f80ed;
+    font-size: 20px;
+}
+.form-control {
+    color: black;
+}
+.btn  {
+    color:#012555;
+    border:1px solid #4a79b6;
+}
+
+:not(.btn-check)+.btn:active {
+    color: white;
+    background-color: #012555;
+    border-color: #012555;
+    font-size: 20px;
+}
+.btn:hover {
+    color: white;
+    background-color:#2f80ed;
+}
+
+#carousel img {
+    width: 100%;
+}
+#carousel  h5 {
+    font-size: 2rem;
+    background-color: #809fc5;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    color: white;
+}
+
+
+#carousel p {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.carousel-dark .carousel-caption p{
+    color: white;
+    background-color: #2f80ed;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.carousel-control-prev-icon {
+    background-color: #040f1b;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.carousel-control-next-icon {
+    background-color: #040f1b;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: white;
+}
+.instructor-heading {
+    margin: 4% 0%;
+    text-align: center;
+    
+}
+.instructor {
+    margin-bottom: 50px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.instructor div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 1%;
+    padding: 10px;
+    
+}
+.instructor-1 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.instructor-2 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.instructor-3 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.instructor img {
+    width: 30%;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: #cee2fd;
+}
+.instructor h3 {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 50%;
+    background-color: #e6e9ed;
+}
+
+#photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4,150px);
+    gap: 10px;
+    grid-template-areas: 
+    "a a b c d d"
+    "a a e f g g"
+    "h h i i i i"
+    "h h i i i i";
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+#photo-gallery div {
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+#photo-gallery div img {
+    width:100%;
+    height: 100%;
+}
+#item-1 {
+    grid-area:a;
+    width: 100%;
+}
+
+#item-2 {
+    grid-area:b;
+}
+
+#item-3 {
+    grid-area:c;
+}
+
+#item-4 {
+    grid-area:d;
+}
+
+#item-5 {
+    grid-area:e;
+}
+#item-6 {
+    grid-area:f;
+}
+#item-7 {
+    grid-area:g;
+}
+#item-8 {
+    grid-area:h;
+}
+#item-9 {
+    grid-area:i;
+}
+#reviews {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+
+.reviews-content  {
+    margin: 4% 0%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    column-gap: 2%;
+}
+.reviews-content div {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.reviews-content img {
+    margin-top: 10px;
+    width: 40%;
+    margin-left:6%;
+    background-color: #cee2fd;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+footer {
+    margin-top: 4%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+.footer-1 {
+    display: flex;
+    justify-content: space-around;
+    color: #595959;
+    font-size: 20px;
+    line-height: 35px;
+}
+.footer-1 h5 {
+    color: #2f80ed;
+}
+.footer-1  ul {
+   list-style-type: none;
+   padding: 0%;
+}
+.footer-1 a {
+    text-decoration: none;
+    color: #595959;
+
+}
+.footer-1 i {
+    padding-right: 10px;
+}
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    padding: 10px 0px;
+}
+#myBtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #2f80ed;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+/* carousel */
+@media screen and (min-width:100px) and (max-width:500px) {
+  
+    #carousel img {
+        width: 100%;
+    }
+    .carousel-control-prev-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+    .carousel-control-next-icon {
+        width: 1rem;
+        height: 1rem;
+    }
+   
+}
+@media screen and (min-width:501px) and (max-width:1024px) {
+  
+    #carousel img {
+        width: 100%;
+    }
+    .carousel-control-prev-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    .carousel-control-next-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+/* Instructors */
+@media screen and (min-width:100px) and (max-width:500px) {
+    .instructor  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    .instructor-heading {
+        font-size: 15px;
+
+    }
+    .instructor h3 {
+        font-size: 13px;
+    }
+    .instructor p {
+        font-size:10px ;
+    }
+    .instructor img {
+        width: 20%;
+    }
+   
+    
+}
+@media screen and (min-width:501px) and (max-width:1024px) {
+    .instructor  {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        
+    }
+    .instructor-heading {
+        font-size: 20px;
+
+    }
+    .instructor div {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        height:260px ;
+        
+    }
+    .instructor h3 {
+        font-size: 15px;
+    }
+    .instructor p {
+        font-size:10px ;
+    }
+    .instructor-1 div:first-child {
+       
+        height: 150px;
+        width: 100%;
+    }
+    
+    .instructor-1 div:last-child {
+       
+        padding: 0px 10px;
+        height: 160px;
+        width: 100%;
+    }
+    .instructor img {
+        width:35%;
+        margin-top: 20px;
+    }
+    .instructor-2 div:first-child {
+      
+        height: 150px;
+        width: 100%;
+    }
+    .instructor-2 div:last-child {
+     
+        padding: 0px 10px;
+        height: 160px;
+        width: 100%;
+    }
+    .instructor-3 div:first-child {
+     
+        height: 150px;
+        width: 100%;
+    }
+    .instructor-3 div:last-child {
+        padding: 0px 10px;
+        height: 160px;
+        width: 100%;
+    }
+}
+
+/* reviews */
+
+@media screen and (min-width:100px) and (max-width:500px) {
+    .reviews-content  {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        column-gap: 0px;
+        
+    }
+    .reviews-content img {
+        width: 80%;
+
+    }
+    .reviews-content h5 {
+        font-size: 15px;
+    }
+    .reviews-content p {
+        font-size: 10px;
+    }
+    .reviews-heading {
+        font-size: 15px;
+
+    }
+}
+@media screen and (min-width:501px) and (max-width:1024px) {
+    .reviews-content  {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+
+        
+    }
+    .reviews-content img {
+        width: 30%;
+        margin-top: 10px;
+
+    }
+}
+
+/* footer */ 
+@media screen and (min-width:100px) and (max-width:500px) {
+    .footer-1 {
+        flex-direction: column;
+        justify-content: start;
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .footer-1 h5 {
+        font-size: 15px;
+     }
+}
+@media screen and (min-width:501px) and (max-width:1024px) {
+    .footer-1 {
+    
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .footer-1 h5 {
+       font-size: 15px;
+    }
+}
+/* btn */
+
+@media screen and (min-width:100px) and (max-width:500px) {
+    #myBtn {
+        font-size: 10px;
+        padding: 1px;
+        border-radius: 5px;
+        width: 30px;
+        margin-bottom: 0px;
+    }
+}
